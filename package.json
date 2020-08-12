@@ -1,0 +1,26 @@
+{
+  "name": "wk-eleven-challenge",
+  "version": "1.0.0",
+  "description": "note-taker",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allielynne20/wk-eleven-challenge.git"
+  },
+  "keywords": [
+    "note",
+    "taker"
+  ],
+  "author": "Allie Watkins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allielynne20/wk-eleven-challenge/issues"
+  },
+  "homepage": "https://github.com/allielynne20/wk-eleven-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
