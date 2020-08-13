@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/allielynne20/wk-eleven-challenge#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "uuid": "^3.4.0"
   }
 }

@@ -1,9 +1,6 @@
 const express = require('express');
-const { notes } = require('./db/db.json');
 const PORT = process.env.PORT || 3001;
 const app = express();
-const fs = require('fs');
-const path = require('path');
 
 const apiRoutes = require('./routes/apiRoute');
 const htmlRoutes = require('./routes/htmlRoute');
@@ -16,8 +13,8 @@ app.use(express.urlencoded({ extended: true }));
 //parse incoming JSON data
 app.use(express.json());
 
-app.use('/notes', apiRoutes);
-app.use.apply('/', htmlRoutes);
+app.use('/api', apiRoutes);
+app.use('/', htmlRoutes);
 
 
 app.listen(PORT, () => {
