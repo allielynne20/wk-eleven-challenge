@@ -1,16 +1,1 @@
-[
-    {
-        "notes": [
-            {
-                "title": "Test Title",
-                "text": "Test text",
-                "id": "test_id"
-            }
-        ]
-    },
-    {
-        "title": "Example Note",
-        "text": "This is an example note. It should be stored on the server created by express.js.\n",
-        "id": "b8f62140-dda2-11ea-9230-abedb0fb972a"
-    }
-]
+[{"notes":[{"title":"Test Title","text":"Test text","id":"test_id"}]},{"title":"Example Note","text":"This is an example note. It should be stored on the server created by express.js.\n","id":"b8f62140-dda2-11ea-9230-abedb0fb972a"},{"title":"shark week","text":"it's shark week! :)","id":"ee0b2980-dda6-11ea-ad4b-f93165232faf"}]
