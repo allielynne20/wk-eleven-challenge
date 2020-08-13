@@ -24,18 +24,18 @@ class Notes {
         })
     }
     addNote(note) {
-        const {title, text} = note;
+        const { title, text } = note;
         if (!title || !text) {
-            throw new Error('Title and Text are invailid.')
+            throw new Error('Title and/or text are invalid.')
         }
-        const newNote = {title, text, id:uuidv1()}
+        const newNote = { title, text, id: uuidv1() }
         return this.getNotes().then(notes => [...notes, newNote])
-        .then(updatedNote => this.write(updatedNote))
-        .then(() => newNote);
+            .then(updatedNote => this.write(updatedNote))
+            .then(() => newNote);
     }
     removeNote(id) {
         return this.getNotes().then(notes => notes.filter(note => note.id !== id))
-        .then(updatedNote => this.write(updatedNote));
+            .then(updatedNote => this.write(updatedNote));
     }
 }
 
