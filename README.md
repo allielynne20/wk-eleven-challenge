@@ -5,9 +5,9 @@
 ## **Description**
 This application allows the user to take notes, save notes, and delete notes. The app is created and run using an express.js server. The information is stored in an array on that server. The user can input the title of the note and then text in the body of the note. After adding the note the user can save it by clicking the save icon in the upper right-hand corner. When the user saves the note, it will show up in a list of saved notes on the left-hand side of the page. The user can also delete notes by clicking on the red trashcan to the right of the note they want to delete. 
 
-![Note-Taker Homepage](./note-taker-hp.png)
+![Homepage](./note-taker-hp.png)
 
-![Note-Taker Notes page](./note-taker-np.png)
+![Notes page](./note-taker-np.png)
 
 ## **Table of Contents**
 
