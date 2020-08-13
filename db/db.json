@@ -7,5 +7,10 @@
                 "id": "test_id"
             }
         ]
+    },
+    {
+        "title": "Example Note",
+        "text": "This is an example note. It should be stored on the server created by express.js.\n",
+        "id": "b8f62140-dda2-11ea-9230-abedb0fb972a"
     }
 ]

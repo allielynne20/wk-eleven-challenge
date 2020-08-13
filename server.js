@@ -13,6 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 //parse incoming JSON data
 app.use(express.json());
 
+//links to the route files 
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
